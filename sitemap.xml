@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO: replace yourdomain.com with your real domain -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://yourdomain.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  </url>
+  <url><loc>https://yourdomain.com/privacy.html</loc></url>
+  <url><loc>https://yourdomain.com/pt/privacidade.html</loc></url>
+</urlset>
