@@ -153,7 +153,8 @@ h2 .serif { font-size: 1.06em; }
 .ba-tag { position: absolute; top: 10px; z-index: 2; font: 600 .68rem/1 var(--font); letter-spacing: .1em; text-transform: uppercase; padding: .5em .7em; border-radius: 6px; pointer-events: none; background: rgba(255,255,255,.92); color: var(--ink); }
 .ba-tag.before { left: 10px; }
 .ba-tag.after { right: 10px; }
-.ba-note { margin: 12px 0 0; font-size: .82rem; color: var(--muted); display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.ba-note { margin: 12px 0 0; font-size: .85rem; color: var(--muted); display: flex; justify-content: space-between; gap: 6px 12px; flex-wrap: wrap; }
+.ba-note strong { font-weight: 600; color: var(--ink-2); }
 
 /* ---------- Browser frame ---------- */
 .browser { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
@@ -196,17 +197,16 @@ h2 .serif { font-size: 1.06em; }
 
 /* ---------- Safe bit ---------- */
 .safe-grid { display: grid; gap: 36px 32px; }
-@media (min-width: 760px) { .safe-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1080px) { .safe-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 860px) { .safe-grid { grid-template-columns: repeat(3, 1fr); gap: 36px 48px; } }
 .safe-item .icon { color: var(--accent); margin-bottom: 14px; }
 .safe-item h3 { margin-bottom: 6px; }
 .safe-item p { color: var(--ink-2); margin: 0; font-size: .97rem; }
 
 /* ---------- Timeline ---------- */
 .timeline { display: grid; gap: 0; }
-@media (min-width: 980px) { .timeline { grid-template-columns: repeat(5, 1fr); gap: 28px; } }
+@media (min-width: 860px) { .timeline { grid-template-columns: repeat(3, 1fr); gap: 48px; } }
 .tl-item { padding: 20px 0 22px; border-top: 1px solid var(--line-strong); }
-@media (min-width: 980px) { .tl-item { padding-bottom: 0; } }
+@media (min-width: 860px) { .tl-item { padding-bottom: 0; } }
 .tl-day { display: block; font: 600 .74rem/1 var(--font); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
 .tl-item h3 { margin-bottom: 6px; }
 .tl-item p { color: var(--ink-2); font-size: .95rem; margin: 0; }

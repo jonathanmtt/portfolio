@@ -58,13 +58,13 @@ if (form) {
   const t = isPT
     ? {
         sending: "Enviando…",
-        ok: "Recebido! Te respondo em até 24 horas com o próximo passo.",
+        ok: "Recebido! Te respondo em até um dia útil com o próximo passo.",
         err: "Não consegui enviar. Me chama direto no WhatsApp ou por e-mail.",
         setup: "Formulário ainda não conectado. Por enquanto, me chama no WhatsApp ou por e-mail.",
       }
     : {
         sending: "Sending…",
-        ok: "Got it! I'll get back to you within 24 hours with next steps.",
+        ok: "Got it! I'll get back to you within one business day with next steps.",
         err: "Something went wrong. Please text or email me directly.",
         setup: "This form isn't connected yet. For now, please text or email me directly.",
       };
